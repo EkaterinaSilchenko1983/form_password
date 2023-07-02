@@ -1,0 +1,40 @@
+.pass-strength {
+  display: flex;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.strength-label {
+  font-size: 12px;
+  margin-left: 10px;
+}
+.strength-section {
+  flex: 1;
+  height: 5px;
+  border-radius: 10px;
+  display: block;
+  background: grey;
+}
+
+.red {
+  background: red;
+}
+
+.strength-section span {
+  display: block;
+  height: 100%;
+  transition: all 0.4s;
+  border-radius: 10px;
+}
+
+.easy {
+  background: red;
+}
+
+.medium {
+  background: #ffd000;
+}
+
+.strong {
+  background: green;
+}
